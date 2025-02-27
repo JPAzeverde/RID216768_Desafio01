@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    font-family: "Inter", serif;
+}
+
+#header{
+    background-color:#303030;
+    color: white;
+    height: 600px;
+    align-items: center;
+    text-align: left;
+}
+
+#titulo-header{
+    font-size: 80px;
+    font-weight: 600;
+    padding-top: 276px;
+    padding-left: 76px;
+}
+
+#descricao-header{
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 76px;
+    padding-top: 20px;
+}
+
+#info{
+    background: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    height: 300px;
+}
+
+.dados{
+    margin: auto;
+}
+
+.numeros{
+    font-size: 60px;
+}
+
+.descricao-info{
+    font-size: 30px;
+}
+
+#historia{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.descricao-historia{
+    width: 800px;
+    padding-top: 100px;
+    padding-left: 80px;
+    margin: auto;
+    
+}
+
+#titulo-historia{
+    font-size: 45px;
+}
+
+#descricao-historia{
+    padding-top: 80px;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+#imagem-casa{
+    height: 600px;
+    padding: 50px 0;
+}
+
+#contato{
+    color: #ffffff;
+    background: #303030;
+    text-align: center;
+    padding: 50px;
+}
+
+#titulo-contato{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+form{
+    display: grid;
+    grid-auto-flow: row;
+    
+}
+
+input{
+
+    font-size: 24px;
+    padding: 12px 12px;
+    width: 400px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+#botao{
+    background-color: #C07212;
+    border-radius: 12px;
+    padding: 15px 60px;
+    font-size: 26px;
+    color: #ffffff;
+    transition: 0.3s;
+    width: 300px;
+    margin: 20px auto;
+}
+
+#botao:hover{
+    background: #ff991d;
+    padding: 20px 70px;
+    width: 400px;
+
+}
